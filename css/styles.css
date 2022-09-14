@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f2f2f2;
+}
+
+#main-title {
+	text-align: center;
+	margin: 15px 0 30px;
+}
+
+.container {
+	min-height: 500px;
+}
+
+/*  ========= NAVBAR =========== */
+
+.navbar-brand img {
+	width: 50px;
+	margin-left: 25px;
+}
+
+.navbar-nav {
+	margin-right: 25px;
+}
+
+/*  ========= HOME =========== */
+
+#contacts-table {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#contacts-table thead {
+	color: #fff;
+	background-color: #007bff;
+}
+
+.col-id {
+	font-weight: bold;
+}
+
+.actions {
+	text-align: right;
+	width: 150px;
+}
+
+.actions i {
+	font-size: 18px;
+	margin-right: 5px;
+}
+
+.check-icon {
+	color: #1e7e34;
+}
+
+.edit-icon {
+	color: #007bff;
+}
+
+.delete-form {
+	display: inline-block;
+}
+
+.delete-btn {
+	background-color: transparent;
+	border: none;
+	padding: 0;
+}
+
+.delete-icon {
+	color: #bd2130;
+}
+
+#empty-list-text {
+	text-align: center;
+}
+
+#msg {
+	color: #155724;
+	background-color: #d4edda;
+	border: 1px solid #c3e6cb;
+	padding: 10px;
+	text-align: center;
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+/*  ========= SHOW  =========== */
+
+#view-contact-container {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#back-link-container {
+	display: block;
+	width: 500px;
+	margin: 30px auto 0;
+}
+
+#back-link {
+	border: 1px solid #007bff;
+	color: #007bff;
+	border-radius: 5px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#back-link:hover {
+	border: 1px solid #0470e4;
+	color: #0470e4;
+	font-weight: bold;
+}
+
+
+/*  ========= CREATE CONTACT =========== */
+
+#create-form,
+#edit-form {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+
+/*  ========= FOOTER =========== */
+
+footer {
+	width: 100%;
+	/*position: absolute;*/
+	bottom: 25px;
+	text-align: center;
+	background-color: #0d6efd;
+	color: #fff;
+	padding: 50px 0;
+}
+
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+	transition: .2s;
+}
+
+footer a:hover {
+	color: gold;
+	font-weight: bold;
+}
+
+
+/*  ========= MOBILE =========== */
+
+@media (max-width: 768px) {
+
+	#home-link {
+		display: none;
+	}
+}
